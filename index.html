@@ -2,27 +2,107 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cororo workshop</title>
+    <title>희망사항</title>
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2014/12/27/16/38/planet-581239_1280.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* 선택 사항, 스크롤 시 배경을 고정할지 여부 설정 */
+
+            
+
+        }
+       
+        
+       
+    </style>
+    <style>
+         h1 {color:red;
+            text-align: center;
+            font-family: Arial Black;
+        font-size: 120px;}
+
+        .blinking-h1 {
+            animation: blink 0.3s infinite;
+        }
+
+        @keyframes blink {
+            0% { visibility: visible; }
+        
+            50% { visibility: hidden; }
+            100% { visibility: visible; }
+        }
+        li{
+            font-size: 25px;
+            font-family: Arial;
+            color:rgb(50, 50, 255);
+
+        }
+        li:hover {
+            color:rgb(255, 93, 93);
+        }
+        li:visited {
+            color:rgb(106, 106, 213)79, 79, 104);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li:nth-child(1) {
+            margin-top: 110px; /* 아래로 10px씩 이동 */
+        }
+        li:nth-child(2) {
+            margin-top: 80px;  /* 아래로 10px씩 이동 */
+            margin-left: 1500px;
+        }
+        li:nth-child(3) {
+            margin-top: 500px;  /* 아래로 10px씩 이동 */
+            margin-left: 1300px;}
+
+        li:nth-child(4) {
+            margin-top: 700px; /* 아래로 10px씩 이동 */
+            margin-left: 500px;
+        }
+        .centered-image img {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);   
+        }
+        .centered-image {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+
+   
 </head>
 <body>
-    <h1>집순이 필수템</h1>
-    <ol>
-        <li>이불</li>
-        <li>침대</li>
-        <li>베개gggggg
+    <h1 class="blinking-h1">PUSH THE BUTTON
+
+    </h1>
+    <h2>
         
-        </li>
-       <img src="./베개.jpeg" alt="">
-       <li>과자</li>
-       <a href=""><iframe width="560" height="315" src="https://www.youtube.com/embed/Kd1OzNM7UoI?si=bGPxB8oTDHUr_MCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+        <ul>
+            <li><a href="https://youtu.be/VHGerKZ4WcE?si=HoN87a1ztEmur9GS">과제가 너무 많을 때</a></li>
+            <li><a href="https://www.seoul.co.kr/news/newsView.php?id=20220106010033">시험이 휘몰아칠 때</a></li>
+              <li><a href="https://s3.peing.net/t/uploads/item/eye_catch/1182514510/c2f372ab.jpg">그냥.</a></li>
+              <li><a href="https://youtu.be/cE97-XerUnY?si=_oXNOFIW3_48X-UB">인생이 고달플 때</a></li>
+          
+        </ul>
+    </h2>
+     <div class="centered-image">
+      <a href="main.html"> 
+        <img src="gigi.png" alt="">
     </a>
-    <li>온전한 신체</li>
-    </ol>
-    
-
-
-
-    
+    </div>
 </body>
 </html>
